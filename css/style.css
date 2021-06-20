@@ -28,16 +28,17 @@ header {
   backdrop-filter: blur(1px);
 }
 header div {
-  margin: 20px auto 0;
+  margin: 20px auto;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 .logo {
-  /* opacity: 0;
-  pointer-events: none; */
-  margin: 20px 0;
+  opacity: 0;
+  pointer-events: none;
+  /* margin: 20px 0; */
+  height: 0;
 }
 nav ul {
   display: flex;
@@ -153,10 +154,24 @@ footer {
   color: #999;
 }
 
+main.mobile {
+  display: none;
+}
+
 /* Responsive */
-/* @media screen and (min-width: 900px) {
-	section {
-		width: 640px;
-		margin: 0 auto;
+@media screen and (max-width: 740px) {
+	main.top {
+    display: none;
 	}
-} */
+  main.mobile {
+    display: block;
+    padding-top: 160px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+    font-size: 1.6rem;
+  }
+  main.mobile p {
+    width: 100%;
+  }
+}
