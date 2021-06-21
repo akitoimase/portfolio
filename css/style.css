@@ -104,7 +104,8 @@ h2 {
   padding: 160px 0 40px;
   text-align: center;
   font-weight: 700;
-  font-size: 2.2rem;
+  /* font-size: 2.2rem; */
+  font-size: 2.8rem;
   line-height: 1.7;
   color: #555;
 }
@@ -117,7 +118,8 @@ h3 {
   margin: 0 auto;
   width: 66.7%;
   max-width: 793px;
-  font-size: 2.0rem;
+  /* font-size: 2.0rem; */
+  font-size: 2.4rem;
   padding: 120px 0 40px;
   font-weight: bold;
 }
