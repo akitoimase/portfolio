@@ -164,7 +164,13 @@ main.mobile {
 /* Profile */
 section div:first-of-type .image.profile {
   padding-top: 160px;
-  width: 28%;
+  width: 66.7%;
+  max-width: 793px;
+}
+section div:first-of-type .image.profile img {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
 }
 table {
   font-size: 1.6rem;
