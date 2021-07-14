@@ -43,7 +43,7 @@ header div {
 nav ul {
   display: flex;
   justify-content: space-between;
-  width: 232px;
+  width: 408px;
   font-weight: bold;
   font-size: 1.6rem;
 }
@@ -213,6 +213,18 @@ div h5:nth-of-type(2) {
 }
 .list_text_pro>li+li {
   margin-top: 1em;
+}
+
+/* Associate */
+section div:first-of-type .image.associate {
+  padding-top: 160px;
+  width: 66.7%;
+  max-width: 793px;
+}
+section div:first-of-type .image.associate img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 /* Responsive */
