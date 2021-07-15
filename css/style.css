@@ -229,16 +229,19 @@ section div:first-of-type .image.associate img {
 
 /* Responsive */
 @media screen and (max-width: 740px) {
+	header {
+    display: none;
+	}
 	main.top {
     display: none;
 	}
   main.mobile {
     display: block;
-    padding-top: 160px;
+    padding-top: 120px;
     text-align: center;
     font-weight: bold;
     color: #555;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   main.mobile p {
     width: 100%;
