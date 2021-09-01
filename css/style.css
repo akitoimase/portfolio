@@ -145,6 +145,9 @@ table {
 .back_img.kintone_app {
   background-image: url(../images/main_kintone_app.jpg);
 }
+.back_img.kintone_portal {
+  background-image: url(../images/main_kintone_portal.jpg);
+}
 .back_img.landing_page {
   background-image: url(../images/main_landing_page.jpg);
 }

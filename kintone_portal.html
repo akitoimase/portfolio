@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="今瀬明仁のポートフォリオ">
+  <title>今瀬明仁のポートフォリオ</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a class="logo" href="/"><img src="images/logo_.png" alt="今瀬明仁のポートフォリオ"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">ポートフォリオ</a></li>
+          <li><a href="kintone.html">kintone改善提案</a></li>
+          <li><a href="associate.html">kintoneアソシエイト</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <li><a href="reason.html">志望動機</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pc">
+    <div class="back_img kintone_portal"></div>
+
+    <section>
+      <h1>Kintone Portal Designer試作品</h1>
+      <p>
+        シンプルデザインをテーマとした、ワンカラムのスクロールアクションを取り入れたポータルを作成しました。<br>
+        サイドバーにメニューを配置し、クリックすることで該当の箇所までスクロールするようにしています。<br>
+        <br>
+        コンテンツは上から、使用する組織にとって常にウォッチしておきたいデータを表示する「ダッシュボード」、そしてカテゴリーごとに整理された「アプリ」、「スペース」、そして「外部リンク」集へと続きます。<br>
+        <br>
+        JSONファイルは以下よりダウンロードをお願いします。<br>
+        <a class="link" href="simple-scroll.json" target="_blank">simple-scroll.json</a><br>
+        <br>
+        ※本テンプレートではjQueryを使用しているため、”kintoneシステム管理”の”JavaScript / CSSでカスタマイズ”より、jQueryファイルを読み込んでください。<br>
+      </p>
+
+      <dl>
+        <dt>担当</dt>
+        <dd>UIデザイン, フロント実装</dt>
+      </dl>
+
+      <div class="image">
+        <img src="images/portal_img01.jpg">
+      </div>
+
+      <div>
+        <h2>ユーザーテストによるプロトタイプからの変更</h2>
+        <p>当初は、ワンカラムではなく、それぞれのコンテンツをタブで切り替えるデザインにしていました。</p>
+        <div class="image">
+          <img src="images/portal_tab.jpg">
+        </div>
+        <p>非デザイナー3人に、用途を伝えた上でユーザーテストをさせてもらったところ、</p>
+        <ul class="list_text">
+          <li><span>・</span>切り替えるのに何度もタブをクリックするのが手間に感じる</li>
+          <li><span>・</span>タブで隠れていると重要なものだと感じない</li>
+        </ul>
+        <p>といったフィードバックを受けました。</p>
+        
+        <h3>サイドバー</h3>
+        <p>上記のフィードバックを受け、タブデザインではなく、必要なものにはすぐ下にスクロールするだけでアクセスできるように、ワンカラムのデザインを採用し、さらにコンテンツの追加により縦に伸びることを考え、サイドバーにメニューを配置し、そこからスクロールによるアクセスも可能な設計に変更しました。</p>
+        <div class="image">
+          <img src="images/portal_img02.jpg">
+        </div>
+        <p>また、スクロール位置により、サイドバーのメニューは目次のようにハイライトされるように実装しました。</p>
+        <div class="image">
+          <img src="images/portal_img03.jpg">
+        </div>
+
+        <h2>背景</h2>
+        <p>また、わかりやすさを目的に、デザインの装飾として右側背景に、現在のスクロール位置に合わせたタイトル文字が切り替わり表示されるように実装しました。</p>
+        <div class="image">
+          <img src="images/portal_img04.jpg">
+        </div>
+
+        <h2>モバイルデザイン</h2>
+        <p>モバイルでは、全ての要素を画面幅いっぱいに広げたデザインに切り替わるようにしました。</p>
+        <div class="image">
+          <img src="images/portal_img05.jpg">
+        </div>
+      </div>
+
+      <div>
+        <h2>まとめ</h2>
+        <p>
+          今回はKintone Portal Designerを使用し、シンプルで使いやすく、わかりやすいポータルを目指して作成しました。また、コーディングでは、新たな要素やリンクを追加しやすいコードを意識しています。<br>
+          実際に制作を行ったことで、Kintone Portal Designerの自由度の高さに驚き、まだまだ多くのことを実現させられそうだと感じましたが、今回は自身の利用シーンや汎用性を考慮して制作に取り組みました。<br>
+          以上をもちまして、Kintone Portal Designerの試作品の紹介とさせていただきます。
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <main class="mobile">
+    <p>PCからの閲覧をよろしくお願いいたします。</p>
+  </main>
+
+  <footer>
+    <p>© Akito Imase 2021</p>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script> window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>') </script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
