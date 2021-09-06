@@ -160,9 +160,6 @@ table {
   margin-left: auto;
   padding: 120px 0;
 }
-section div:first-of-type .image {
-  /* padding-top: 0; */
-}
 .image span {
   text-align: center;
   font-size: 1.4rem;
@@ -271,6 +268,9 @@ h4 {
   padding: 120px 0 0px;
   font-weight: bold;
   color: #555;
+}
+.reason h4 {
+  padding: 80px 0 0px;
 }
 h5 {
   margin: 20px auto 10px;
