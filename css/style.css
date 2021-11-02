@@ -43,7 +43,8 @@ header div {
 nav ul {
   display: flex;
   justify-content: space-between;
-  width: 640px;
+  width: 240px;
+  /* width: 320px; */
   font-weight: bold;
   font-size: 1.6rem;
 }
